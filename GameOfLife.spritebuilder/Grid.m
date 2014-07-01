@@ -10,7 +10,6 @@ static const int GRID_COLUMNS = 10;
     float _cellWidth;
     float _cellHeight;
 }
-
 - (void)onEnter
 {
     [super onEnter];
@@ -20,7 +19,6 @@ static const int GRID_COLUMNS = 10;
     // accept touches on the grid
     self.userInteractionEnabled = YES;
 }
-
 - (void)setupGrid
 {
     // divide the grid's size by the number of columns/rows to figure out the right width and height of each cell
