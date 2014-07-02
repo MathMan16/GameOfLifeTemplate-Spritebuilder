@@ -109,10 +109,10 @@ static const int GRID_COLUMNS = 10;
             {
                 currentCreature.isAlive = FALSE;
             }
-            else if (currentCreature.isAlive)
+/*            else if (currentCreature.isAlive)
             {
 //                numCreatures++;
-            }
+            }*/
         }
     }
 }
