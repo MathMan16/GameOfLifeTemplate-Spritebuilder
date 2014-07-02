@@ -14,14 +14,14 @@ static const int GRID_COLUMNS = 10;
 }
 - (void)onEnter
 {
-    [super onEnter];
+    [super onEnter];//Help!!!
     
     [self setupGrid];
     
     // accept touches on the grid
     self.userInteractionEnabled = YES;
 }
-- (void)setupGrid
+- (void)setupGrid// Help !!!
 {
     // divide the grid's size by the number of columns/rows to figure out the right width and height of each cell
     _cellWidth = self.contentSize.width / GRID_COLUMNS;
